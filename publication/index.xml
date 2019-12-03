@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Publications | Jordan D. Snyder</title>
-    <link>/jordandsnyder/jordandsnyder.github.io/publication/</link>
-      <atom:link href="/jordandsnyder/jordandsnyder.github.io/publication/index.xml" rel="self" type="application/rss+xml" />
+    <link>/publication/</link>
+      <atom:link href="/publication/index.xml" rel="self" type="application/rss+xml" />
     <description>Publications</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© Jordan D. Snyder 2019</copyright><lastBuildDate>Wed, 25 Sep 2019 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>/jordandsnyder/jordandsnyder.github.io/img/icon-192.png</url>
+      <url>/img/icon-192.png</url>
       <title>Publications</title>
-      <link>/jordandsnyder/jordandsnyder.github.io/publication/</link>
+      <link>/publication/</link>
     </image>
     
     <item>
       <title>Resource Loss and Stress Outcomes in a Setting of Chronic Conflict</title>
-      <link>/jordandsnyder/jordandsnyder.github.io/publication/resourceloss/</link>
+      <link>/publication/resourceloss/</link>
       <pubDate>Wed, 25 Sep 2019 00:00:00 +0000</pubDate>
-      <guid>/jordandsnyder/jordandsnyder.github.io/publication/resourceloss/</guid>
+      <guid>/publication/resourceloss/</guid>
       <description>&lt;div class=&#34;alert alert-note&#34;&gt;
   &lt;div&gt;
     Click the &lt;em&gt;Slides&lt;/em&gt; button above to demo Academic&amp;rsquo;s Markdown slides feature.
@@ -29,9 +29,9 @@
     
     <item>
       <title>Caregiver perceptions of environment moderate relationship betweenneighborhood characteristics and language skills among youth living withperinatal HIV and uninfected youth exposed to HIV in New York City</title>
-      <link>/jordandsnyder/jordandsnyder.github.io/publication/casah/</link>
+      <link>/publication/casah/</link>
       <pubDate>Wed, 27 Jun 2018 00:00:00 +0000</pubDate>
-      <guid>/jordandsnyder/jordandsnyder.github.io/publication/casah/</guid>
+      <guid>/publication/casah/</guid>
       <description>&lt;div class=&#34;alert alert-note&#34;&gt;
   &lt;div&gt;
     Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.

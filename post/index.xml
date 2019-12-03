@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts | Jordan D. Snyder</title>
-    <link>/jordandsnyder/jordandsnyder.github.io/post/</link>
-      <atom:link href="/jordandsnyder/jordandsnyder.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <link>/post/</link>
+      <atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
     <description>Posts</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© Jordan D. Snyder 2019</copyright><lastBuildDate>Sun, 01 Dec 2019 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>/jordandsnyder/jordandsnyder.github.io/img/icon-192.png</url>
+      <url>/img/icon-192.png</url>
       <title>Posts</title>
-      <link>/jordandsnyder/jordandsnyder.github.io/post/</link>
+      <link>/post/</link>
     </image>
     
     <item>
       <title>Creating a Secret Santa program in R</title>
-      <link>/jordandsnyder/jordandsnyder.github.io/post/secret-santa/</link>
+      <link>/post/secret-santa/</link>
       <pubDate>Sun, 01 Dec 2019 00:00:00 +0000</pubDate>
-      <guid>/jordandsnyder/jordandsnyder.github.io/post/secret-santa/</guid>
+      <guid>/post/secret-santa/</guid>
       <description>
 
 &lt;h2 id=&#34;the-inspiration&#34;&gt;The Inspiration&lt;/h2&gt;
