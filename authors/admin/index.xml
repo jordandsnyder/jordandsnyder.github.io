@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Jordan D. Snyder</title>
-    <link>/authors/admin/</link>
-      <atom:link href="/authors/admin/index.xml" rel="self" type="application/rss+xml" />
+    <link>/jordandsnyder/jordandsnyder.github.io/authors/admin/</link>
+      <atom:link href="/jordandsnyder/jordandsnyder.github.io/authors/admin/index.xml" rel="self" type="application/rss+xml" />
     <description>Jordan D. Snyder</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© Jordan D. Snyder 2019</copyright><lastBuildDate>Sun, 01 Dec 2019 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>/img/icon-192.png</url>
+      <url>/jordandsnyder/jordandsnyder.github.io/img/icon-192.png</url>
       <title>Jordan D. Snyder</title>
-      <link>/authors/admin/</link>
+      <link>/jordandsnyder/jordandsnyder.github.io/authors/admin/</link>
     </image>
     
     <item>
       <title>Creating a Secret Santa program in R</title>
-      <link>/post/secret-santa/</link>
+      <link>/jordandsnyder/jordandsnyder.github.io/post/secret-santa/</link>
       <pubDate>Sun, 01 Dec 2019 00:00:00 +0000</pubDate>
-      <guid>/post/secret-santa/</guid>
+      <guid>/jordandsnyder/jordandsnyder.github.io/post/secret-santa/</guid>
       <description>
 
 &lt;h2 id=&#34;the-inspiration&#34;&gt;The Inspiration&lt;/h2&gt;
@@ -185,9 +185,9 @@ parcel_send(parcel)
     
     <item>
       <title>Resource Loss and Stress Outcomes in a Setting of Chronic Conflict</title>
-      <link>/publication/resourceloss/</link>
+      <link>/jordandsnyder/jordandsnyder.github.io/publication/resourceloss/</link>
       <pubDate>Wed, 25 Sep 2019 00:00:00 +0000</pubDate>
-      <guid>/publication/resourceloss/</guid>
+      <guid>/jordandsnyder/jordandsnyder.github.io/publication/resourceloss/</guid>
       <description>&lt;div class=&#34;alert alert-note&#34;&gt;
   &lt;div&gt;
     Click the &lt;em&gt;Slides&lt;/em&gt; button above to demo Academic&amp;rsquo;s Markdown slides feature.
@@ -200,9 +200,9 @@ parcel_send(parcel)
     
     <item>
       <title>Caregiver perceptions of environment moderate relationship betweenneighborhood characteristics and language skills among youth living withperinatal HIV and uninfected youth exposed to HIV in New York City</title>
-      <link>/publication/casah/</link>
+      <link>/jordandsnyder/jordandsnyder.github.io/publication/casah/</link>
       <pubDate>Wed, 27 Jun 2018 00:00:00 +0000</pubDate>
-      <guid>/publication/casah/</guid>
+      <guid>/jordandsnyder/jordandsnyder.github.io/publication/casah/</guid>
       <description>&lt;div class=&#34;alert alert-note&#34;&gt;
   &lt;div&gt;
     Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
