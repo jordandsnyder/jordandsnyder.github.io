@@ -3,221 +3,236 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/courses/example/example1/</loc>
-    <lastmod>2019-05-05T00:00:00+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/courses/example/</loc>
-    <lastmod>2018-09-09T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/courses/example/example2/</loc>
-    <lastmod>2019-05-05T00:00:00+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/talk/example/</loc>
+    <loc>https://jordandsnyder.com/talk/example/</loc>
     <lastmod>2030-06-01T13:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/</loc>
+    <loc>https://jordandsnyder.com/talk/</loc>
     <lastmod>2030-06-01T13:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/talk/</loc>
-    <lastmod>2030-06-01T13:00:00+00:00</lastmod>
+    <loc>https://jordandsnyder.com/publication-type/2/</loc>
+    <lastmod>2020-04-27T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/authors/admin/</loc>
+    <loc>https://jordandsnyder.com/publication/carsa_ajcp/</loc>
+    <lastmod>2020-04-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jordandsnyder.com/authors/</loc>
+    <lastmod>2020-04-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jordandsnyder.com/author/christophe-mbonyingabo/</loc>
+    <lastmod>2020-04-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jordandsnyder.com/author/darcie-delzell/</loc>
+    <lastmod>2020-04-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jordandsnyder.com/author/ezer-kang/</loc>
+    <lastmod>2020-04-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jordandsnyder.com/tag/genocide/</loc>
+    <lastmod>2020-04-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jordandsnyder.com/author/grace-k.-mwemere/</loc>
+    <lastmod>2020-04-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jordandsnyder.com/tag/intergroup-contact/</loc>
+    <lastmod>2020-04-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jordandsnyder.com/author/jordan-d.-snyder/</loc>
+    <lastmod>2020-04-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jordandsnyder.com/tag/program-evaluation/</loc>
+    <lastmod>2020-04-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jordandsnyder.com/publication_types/</loc>
+    <lastmod>2020-04-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jordandsnyder.com/publication/</loc>
+    <lastmod>2020-04-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jordandsnyder.com/tag/r/</loc>
+    <lastmod>2020-04-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jordandsnyder.com/tag/reconciliation/</loc>
+    <lastmod>2020-04-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jordandsnyder.com/tag/rwanda/</loc>
+    <lastmod>2020-04-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jordandsnyder.com/tags/</loc>
+    <lastmod>2020-04-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jordandsnyder.com/categories/</loc>
     <lastmod>2019-12-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/authors/</loc>
+    <loc>https://jordandsnyder.com/post/secret-santa/</loc>
     <lastmod>2019-12-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/post/secret-santa/</loc>
+    <loc>https://jordandsnyder.com/post/</loc>
     <lastmod>2019-12-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/post/</loc>
+    <loc>https://jordandsnyder.com/category/r/</loc>
     <lastmod>2019-12-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/r/</loc>
+    <loc>https://jordandsnyder.com/tag/rstats/</loc>
     <lastmod>2019-12-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/rstats/</loc>
-    <lastmod>2019-12-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/</loc>
-    <lastmod>2019-12-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/publication_types/2/</loc>
+    <loc>https://jordandsnyder.com/tag/daily-stressors/</loc>
     <lastmod>2019-09-25T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/daily-stressors/</loc>
+    <loc>https://jordandsnyder.com/author/david-boan/</loc>
     <lastmod>2019-09-25T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/authors/david-boan/</loc>
+    <loc>https://jordandsnyder.com/tag/democratic-republic-of-the-congo/</loc>
     <lastmod>2019-09-25T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/democratic-republic-of-the-congo/</loc>
+    <loc>https://jordandsnyder.com/author/edward-b.-davis/</loc>
     <lastmod>2019-09-25T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/authors/edward-b.-davis/</loc>
+    <loc>https://jordandsnyder.com/author/everett-l.-worthington-jr./</loc>
     <lastmod>2019-09-25T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/authors/everett-l.-worthington-jr./</loc>
+    <loc>https://jordandsnyder.com/author/jamie-aten/</loc>
     <lastmod>2019-09-25T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/authors/jamie-aten/</loc>
+    <loc>https://jordandsnyder.com/author/jordan-d..-snyder/</loc>
     <lastmod>2019-09-25T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/authors/leif-van-grinsven/</loc>
+    <loc>https://jordandsnyder.com/author/leif-van-grinsven/</loc>
     <lastmod>2019-09-25T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/mental-health/</loc>
+    <loc>https://jordandsnyder.com/tag/mental-health/</loc>
     <lastmod>2019-09-25T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/publication_types/</loc>
+    <loc>https://jordandsnyder.com/tag/resource-loss/</loc>
     <lastmod>2019-09-25T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/publication/</loc>
+    <loc>https://jordandsnyder.com/publication/resourceloss/</loc>
     <lastmod>2019-09-25T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/resource-loss/</loc>
+    <loc>https://jordandsnyder.com/author/tao-liu/</loc>
     <lastmod>2019-09-25T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/publication/resourceloss/</loc>
-    <lastmod>2019-09-25T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/authors/tao-liu/</loc>
-    <lastmod>2019-09-25T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/slides/</loc>
+    <loc>https://jordandsnyder.com/slides/</loc>
     <lastmod>2019-02-05T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/slides/example/</loc>
+    <loc>https://jordandsnyder.com/slides/example/</loc>
     <lastmod>2019-02-05T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/privacy/</loc>
+    <loc>https://jordandsnyder.com/</loc>
     <lastmod>2018-06-28T00:00:00+01:00</lastmod>
   </url>
   
   <url>
-    <loc>/terms/</loc>
+    <loc>https://jordandsnyder.com/privacy/</loc>
     <lastmod>2018-06-28T00:00:00+01:00</lastmod>
   </url>
   
   <url>
-    <loc>/authors/amelia-bucek/</loc>
+    <loc>https://jordandsnyder.com/author/amelia-bucek/</loc>
     <lastmod>2018-06-27T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/publication/casah/</loc>
+    <loc>https://jordandsnyder.com/publication/casah/</loc>
     <lastmod>2018-06-27T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/authors/cheung-shuin-leu/</loc>
+    <loc>https://jordandsnyder.com/author/cheung-shuin-leu/</loc>
     <lastmod>2018-06-27T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/authors/claude-a.-mellins/</loc>
+    <loc>https://jordandsnyder.com/author/claude-a.-mellins/</loc>
     <lastmod>2018-06-27T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/authors/ezer-kang/</loc>
+    <loc>https://jordandsnyder.com/author/rueben-n.-robbins/</loc>
     <lastmod>2018-06-27T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/authors/rueben-n.-robbins/</loc>
-    <lastmod>2018-06-27T00:00:00+00:00</lastmod>
+    <loc>https://jordandsnyder.com/author/</loc>
   </url>
   
   <url>
-    <loc>/tags/deep-learning/</loc>
-    <lastmod>2016-04-27T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/demo/</loc>
-    <lastmod>2016-04-27T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/project/external-project/</loc>
-    <lastmod>2016-04-27T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/project/internal-project/</loc>
-    <lastmod>2016-04-27T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/project/</loc>
-    <lastmod>2016-04-27T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/categories/</loc>
-  </url>
-  
-  <url>
-    <loc>/courses/</loc>
+    <loc>https://jordandsnyder.com/courses/</loc>
   </url>
   
 </urlset>

@@ -1,12 +1,11 @@
-<!DOCTYPE html>
-<html lang="en-us">
+<!DOCTYPE html><html lang="en-us" >
 
 <head>
 
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="generator" content="Source Themes Academic 4.5.0">
+  <meta name="generator" content="Source Themes Academic 4.8.0">
 
   
 
@@ -21,7 +20,7 @@
   
   
 
-  <meta name="author" content="Jordan D. Snyder">
+  
 
   
   
@@ -31,7 +30,7 @@
   <meta name="description" content="Despite the increased recognition of how neighborhood conditions bear on cognitive andacademic outcomes, no studies have examined the influences of objective and subjectiveneighborhood indices on specific areas of cognitive functioning among youth living withperinatal HIV (PHIV). Based on a longitudinal cohort study of psychosocial and behavioral health outcomes in 340 perinatally HIV-exposed but uninfected (PHEU) and PHIV youth residing in New York City, ages 9–16 years at enrollment, we analyzed data from baselineand multiple follow-up (FU) quantitative interviews with youth and their primary caregivers, fromwhen they were at least 13-years-old (approximately 4–6 years post enrollment). Census data (percentage of families in neighborhoodliving  below  the  national  poverty  rate,  median  neighborhood  household  income,  andpercentage of residents professionally employed) were not independently associated with PPVTscores at both follow-ups. However, in the logistic regression model, the more caregivers perceived their neighborhood as stressful and subjected to violence, the stronger the relationshipbetween census data indicators of low resource neighborhoods and lower PPVT scores for bothgroups. Findings support“place-based”policies and practices that alleviate caregiver experiencesof neighborhood stressors which may contribute to improved cognitive outcomes for youthliving with and affected by PHIV.">
 
   
-  <link rel="alternate" hreflang="en-us" href="/publication/casah/">
+  <link rel="alternate" hreflang="en-us" href="https://jordandsnyder.com/publication/casah/">
 
   
 
@@ -44,11 +43,14 @@
 
   
   
+
+  
+  
   
   
     
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css" integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" integrity="sha256-+N4/V/SbAFiW1MPBCXnfnP9QSN3+Keu+NlB+0ev/YKQ=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-1/css/all.min.css" integrity="sha256-4w9DunooKSr3MFXHXWyFER38WmPdm361bQS/2KUWZbU=" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" integrity="sha256-Vzbj7sDDS/woiFS3uNKo8eIuni59rjyNGtXfstRzStA=" crossorigin="anonymous">
 
     
@@ -60,8 +62,8 @@
       
       
         
-          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.10/styles/github.min.css" crossorigin="anonymous" title="hl-light">
-          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.10/styles/dracula.min.css" crossorigin="anonymous" title="hl-dark" disabled>
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/styles/github.min.css" crossorigin="anonymous" title="hl-light">
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/styles/dracula.min.css" crossorigin="anonymous" title="hl-dark" disabled>
         
       
     
@@ -70,6 +72,118 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.5.1/leaflet.css" integrity="sha256-SHMGCYmST46SoyGgo4YR/9AlK1vf3ff84Aq9yK4hdqM=" crossorigin="anonymous">
     
 
+    
+
+    
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/lazysizes/5.1.2/lazysizes.min.js" integrity="sha256-Md1qLToewPeKjfAHU1zyPwOutccPAm5tahnaw7Osw0A=" crossorigin="anonymous" async></script>
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+        
+      
+
+      
+    
+      
+
+      
+      
+
+      
     
 
   
@@ -100,13 +214,15 @@
       dataLayer.push(arguments);
   }
 
-  function trackOutboundLink(url) {
+  function trackOutboundLink(url, target) {
     gtag('event', 'click', {
          'event_category': 'outbound',
          'event_label': url,
          'transport_type': 'beacon',
          'event_callback': function () {
-           document.location = url;
+           if (target !== '_blank') {
+             document.location = url;
+           }
          }
     });
     console.debug("Outbound link clicked: " + url);
@@ -116,11 +232,11 @@
     if ((event.target.tagName !== 'A') || (event.target.host === window.location.host)) {
       return;
     }
-    trackOutboundLink(event.target);  
+    trackOutboundLink(event.target, event.target.getAttribute('target'));  
   }
 
   gtag('js', new Date());
-  gtag('config', 'UA-66601076-1', {});
+  gtag('config', 'UA-66601076-1', { 'anonymize_ip': true });
 
   
   document.addEventListener('click', onClickCallback, false);
@@ -131,13 +247,19 @@
 
 
   
+  
+
+  
 
   <link rel="manifest" href="/index.webmanifest">
-  <link rel="icon" type="image/png" href="/img/icon-32.png">
-  <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
+  <link rel="icon" type="image/png" href="/images/icon_hu295cf20cad5ac039326eae797cf8f463_75892_32x32_fill_lanczos_center_2.png">
+  <link rel="apple-touch-icon" type="image/png" href="/images/icon_hu295cf20cad5ac039326eae797cf8f463_75892_192x192_fill_lanczos_center_2.png">
 
-  <link rel="canonical" href="/publication/casah/">
+  <link rel="canonical" href="https://jordandsnyder.com/publication/casah/">
 
+  
+  
+  
   
   
   
@@ -152,10 +274,10 @@
   <meta property="twitter:creator" content="@Jordan_D_Snyder">
   
   <meta property="og:site_name" content="Jordan D. Snyder">
-  <meta property="og:url" content="/publication/casah/">
+  <meta property="og:url" content="https://jordandsnyder.com/publication/casah/">
   <meta property="og:title" content="Caregiver perceptions of environment moderate relationship betweenneighborhood characteristics and language skills among youth living withperinatal HIV and uninfected youth exposed to HIV in New York City | Jordan D. Snyder">
-  <meta property="og:description" content="Despite the increased recognition of how neighborhood conditions bear on cognitive andacademic outcomes, no studies have examined the influences of objective and subjectiveneighborhood indices on specific areas of cognitive functioning among youth living withperinatal HIV (PHIV). Based on a longitudinal cohort study of psychosocial and behavioral health outcomes in 340 perinatally HIV-exposed but uninfected (PHEU) and PHIV youth residing in New York City, ages 9–16 years at enrollment, we analyzed data from baselineand multiple follow-up (FU) quantitative interviews with youth and their primary caregivers, fromwhen they were at least 13-years-old (approximately 4–6 years post enrollment). Census data (percentage of families in neighborhoodliving  below  the  national  poverty  rate,  median  neighborhood  household  income,  andpercentage of residents professionally employed) were not independently associated with PPVTscores at both follow-ups. However, in the logistic regression model, the more caregivers perceived their neighborhood as stressful and subjected to violence, the stronger the relationshipbetween census data indicators of low resource neighborhoods and lower PPVT scores for bothgroups. Findings support“place-based”policies and practices that alleviate caregiver experiencesof neighborhood stressors which may contribute to improved cognitive outcomes for youthliving with and affected by PHIV."><meta property="og:image" content="/img/icon-192.png">
-  <meta property="twitter:image" content="/img/icon-192.png"><meta property="og:locale" content="en-us">
+  <meta property="og:description" content="Despite the increased recognition of how neighborhood conditions bear on cognitive andacademic outcomes, no studies have examined the influences of objective and subjectiveneighborhood indices on specific areas of cognitive functioning among youth living withperinatal HIV (PHIV). Based on a longitudinal cohort study of psychosocial and behavioral health outcomes in 340 perinatally HIV-exposed but uninfected (PHEU) and PHIV youth residing in New York City, ages 9–16 years at enrollment, we analyzed data from baselineand multiple follow-up (FU) quantitative interviews with youth and their primary caregivers, fromwhen they were at least 13-years-old (approximately 4–6 years post enrollment). Census data (percentage of families in neighborhoodliving  below  the  national  poverty  rate,  median  neighborhood  household  income,  andpercentage of residents professionally employed) were not independently associated with PPVTscores at both follow-ups. However, in the logistic regression model, the more caregivers perceived their neighborhood as stressful and subjected to violence, the stronger the relationshipbetween census data indicators of low resource neighborhoods and lower PPVT scores for bothgroups. Findings support“place-based”policies and practices that alleviate caregiver experiencesof neighborhood stressors which may contribute to improved cognitive outcomes for youthliving with and affected by PHIV."><meta property="og:image" content="https://jordandsnyder.com/images/logo_hu295cf20cad5ac039326eae797cf8f463_75892_300x300_fit_lanczos_2.png">
+  <meta property="twitter:image" content="https://jordandsnyder.com/images/logo_hu295cf20cad5ac039326eae797cf8f463_75892_300x300_fit_lanczos_2.png"><meta property="og:locale" content="en-us">
   
     
       <meta property="article:published_time" content="2018-06-27T00:00:00&#43;00:00">
@@ -176,15 +298,13 @@
 
 
 
-
-
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "Article",
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "/publication/casah/"
+    "@id": "https://jordandsnyder.com/publication/casah/"
   },
   "headline": "Caregiver perceptions of environment moderate relationship betweenneighborhood characteristics and language skills among youth living withperinatal HIV and uninfected youth exposed to HIV in New York City",
   
@@ -201,7 +321,7 @@
     "name": "Jordan D. Snyder",
     "logo": {
       "@type": "ImageObject",
-      "url": "/img/icon-512.png"
+      "url": "https://jordandsnyder.com/images/logo_hu295cf20cad5ac039326eae797cf8f463_75892_192x192_fit_lanczos_2.png"
     }
   },
   "description": "Despite the increased recognition of how neighborhood conditions bear on cognitive andacademic outcomes, no studies have examined the influences of objective and subjectiveneighborhood indices on specific areas of cognitive functioning among youth living withperinatal HIV (PHIV). Based on a longitudinal cohort study of psychosocial and behavioral health outcomes in 340 perinatally HIV-exposed but uninfected (PHEU) and PHIV youth residing in New York City, ages 9–16 years at enrollment, we analyzed data from baselineand multiple follow-up (FU) quantitative interviews with youth and their primary caregivers, fromwhen they were at least 13-years-old (approximately 4–6 years post enrollment). Census data (percentage of families in neighborhoodliving  below  the  national  poverty  rate,  median  neighborhood  household  income,  andpercentage of residents professionally employed) were not independently associated with PPVTscores at both follow-ups. However, in the logistic regression model, the more caregivers perceived their neighborhood as stressful and subjected to violence, the stronger the relationshipbetween census data indicators of low resource neighborhoods and lower PPVT scores for bothgroups. Findings support“place-based”policies and practices that alleviate caregiver experiencesof neighborhood stressors which may contribute to improved cognitive outcomes for youthliving with and affected by PHIV."
@@ -214,6 +334,36 @@
 
 
   
+  
+  
+  
+  
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.1/cookieconsent.min.js" integrity="sha256-5VhCqFam2Cn+yjw61zbBNrbHVJ6SRydPeKopYlngbiQ=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.1/cookieconsent.min.css" integrity="sha256-zQ0LblD/Af8vOppw18+2anxsuaz3pWYyVWi+bTvTH8Q=" crossorigin="anonymous">
+  
+  <script>
+  window.addEventListener("load", function(){
+    window.cookieconsent.initialise({
+      "palette": {
+        "popup": {
+          "background": "#2962ff",
+          "text": "#fff"
+        },
+        "button": {
+          "background": "#fff",
+          "text": "#2962ff"
+        }
+      },
+      "theme": "classic",
+      "content": {
+        "message": "This website uses cookies to ensure you get the best experience on our website.",
+        "dismiss": "Got it!",
+        "link": "Learn more",
+        "href": "/privacy/"
+      }
+    })});
+  </script>
+
 
 
   
@@ -261,24 +411,43 @@
 
 
   
-<nav class="navbar navbar-light fixed-top navbar-expand-lg py-0 compensate-for-scrollbar" id="navbar-main">
+
+
+
+
+
+
+  
+
+
+<nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id="navbar-main">
   <div class="container">
 
     
-      <a class="navbar-brand" href="/">Jordan D. Snyder</a>
-      
-      <button type="button" class="navbar-toggler" data-toggle="collapse"
-              data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
-        <span><i class="fas fa-bars"></i></span>
-      </button>
-      
+    <div class="d-none d-lg-inline-flex">
+      <a class="navbar-brand" href="/"><img src="/images/logo_hu295cf20cad5ac039326eae797cf8f463_75892_0x70_resize_lanczos_2.png" alt="Jordan D. Snyder"></a>
+    </div>
+    
 
     
-    <div class="collapse navbar-collapse" id="navbar">
+    <button type="button" class="navbar-toggler" data-toggle="collapse"
+            data-target="#navbar-content" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+    <span><i class="fas fa-bars"></i></span>
+    </button>
+    
+
+    
+    <div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none">
+      <a class="navbar-brand" href="/"><img src="/images/logo_hu295cf20cad5ac039326eae797cf8f463_75892_0x70_resize_lanczos_2.png" alt="Jordan D. Snyder"></a>
+    </div>
+    
+
+    
+    
+    <div class="navbar-collapse main-menu-item collapse justify-content-start" id="navbar-content">
 
       
-      
-      <ul class="navbar-nav mr-auto">
+      <ul class="navbar-nav d-md-inline-flex">
         
 
         
@@ -294,17 +463,10 @@
         
         
         
-        
-          
-          
-          
-            
-          
-          
         
 
         <li class="nav-item">
-          <a class="nav-link " href="/#posts"><span>Posts</span></a>
+          <a class="nav-link  active" href="/publication/"><span>Publications</span></a>
         </li>
 
         
@@ -324,45 +486,9 @@
         
         
         
-          
-          
-          
-            
-          
-          
-        
 
         <li class="nav-item">
-          <a class="nav-link " href="/#featured"><span>Publications</span></a>
-        </li>
-
-        
-        
-
-        
-
-        
-        
-        
-          
-        
-
-        
-        
-        
-        
-        
-        
-          
-          
-          
-            
-          
-          
-        
-
-        <li class="nav-item">
-          <a class="nav-link " href="/#contact"><span>Contact</span></a>
+          <a class="nav-link " href="/post/"><span>Posts</span></a>
         </li>
 
         
@@ -391,29 +517,41 @@
         
 
       
+
+        
       </ul>
-      <ul class="navbar-nav ml-auto">
+    </div>
+
+    <ul class="nav-icons navbar-nav flex-row ml-auto d-flex pl-md-2">
+      
+      <li class="nav-item">
+        <a class="nav-link js-search" href="#"><i class="fas fa-search" aria-hidden="true"></i></a>
+      </li>
       
 
-        
+      
+      <li class="nav-item dropdown theme-dropdown">
+        <a href="#" class="nav-link js-theme-selector" data-toggle="dropdown" aria-haspopup="true">
+          <i class="fas fa-palette" aria-hidden="true"></i>
+        </a>
+        <div class="dropdown-menu">
+          <a href="#" class="dropdown-item js-set-theme-light">
+            <span>Light</span>
+          </a>
+          <a href="#" class="dropdown-item js-set-theme-dark">
+            <span>Dark</span>
+          </a>
+          <a href="#" class="dropdown-item js-set-theme-auto">
+            <span>Automatic</span>
+          </a>
+        </div>
+      </li>
+      
 
-        
-        <li class="nav-item">
-          <a class="nav-link js-search" href="#"><i class="fas fa-search" aria-hidden="true"></i></a>
-        </li>
-        
+      
 
-        
+    </ul>
 
-        
-        <li class="nav-item">
-          <a class="nav-link js-dark-toggle" href="#"><i class="fas fa-moon" aria-hidden="true"></i></a>
-        </li>
-        
-
-      </ul>
-
-    </div>
   </div>
 </nav>
 
@@ -456,11 +594,8 @@
   <div>
     
 
-
-
   
-  <span><a href="/authors/ezer-kang/">Ezer Kang</a></span>, <span><a href="/authors/cheung-shuin-leu/">Cheung-Shuin Leu</a></span>, <span><a href="/authors/admin/">Jordan D. Snyder</a></span>, <span><a href="/authors/rueben-n.-robbins/">Rueben N. Robbins</a></span>, <span><a href="/authors/amelia-bucek/">Amelia Bucek</a></span>, <span><a href="/authors/claude-a.-mellins/">Claude A. Mellins</a></span>
-
+  <span>Ezer Kang</span>, <span>Cheung-Shuin Leu</span>, <span>Jordan D. Snyder</span>, <span>Rueben N. Robbins</span>, <span>Amelia Bucek</span>, <span>Claude A. Mellins</span>
   </div>
   
   
@@ -629,14 +764,13 @@
     Click the <em>Cite</em> button above to demo the feature to enable visitors to import publication metadata into their reference management software.
   </div>
 </div>
-
 <div class="alert alert-note">
   <div>
     Click the <em>Slides</em> button above to demo Academic&rsquo;s Markdown slides feature.
   </div>
 </div>
-
-<p>Supplementary notes can be added here, including <a href="https://sourcethemes.com/academic/docs/writing-markdown-latex/" target="_blank">code and math</a>.</p>
+<p>Supplementary notes can be added here, including 
+<a href="https://sourcethemes.com/academic/docs/writing-markdown-latex/" target="_blank" rel="noopener">code and math</a>.</p>
 </div>
 
     
@@ -658,7 +792,7 @@
       
       
       <li>
-        <a href="https://twitter.com/intent/tweet?url=/publication/casah/&amp;text=Caregiver%20perceptions%20of%20environment%20moderate%20relationship%20betweenneighborhood%20characteristics%20and%20language%20skills%20among%20youth%20living%20withperinatal%20HIV%20and%20uninfected%20youth%20exposed%20to%20HIV%20in%20New%20York%20City" target="_blank" rel="noopener" class="share-btn-twitter">
+        <a href="https://twitter.com/intent/tweet?url=https://jordandsnyder.com/publication/casah/&amp;text=Caregiver%20perceptions%20of%20environment%20moderate%20relationship%20betweenneighborhood%20characteristics%20and%20language%20skills%20among%20youth%20living%20withperinatal%20HIV%20and%20uninfected%20youth%20exposed%20to%20HIV%20in%20New%20York%20City" target="_blank" rel="noopener" class="share-btn-twitter">
           <i class="fab fa-twitter"></i>
         </a>
       </li>
@@ -671,7 +805,7 @@
       
       
       <li>
-        <a href="https://www.facebook.com/sharer.php?u=/publication/casah/&amp;t=Caregiver%20perceptions%20of%20environment%20moderate%20relationship%20betweenneighborhood%20characteristics%20and%20language%20skills%20among%20youth%20living%20withperinatal%20HIV%20and%20uninfected%20youth%20exposed%20to%20HIV%20in%20New%20York%20City" target="_blank" rel="noopener" class="share-btn-facebook">
+        <a href="https://www.facebook.com/sharer.php?u=https://jordandsnyder.com/publication/casah/&amp;t=Caregiver%20perceptions%20of%20environment%20moderate%20relationship%20betweenneighborhood%20characteristics%20and%20language%20skills%20among%20youth%20living%20withperinatal%20HIV%20and%20uninfected%20youth%20exposed%20to%20HIV%20in%20New%20York%20City" target="_blank" rel="noopener" class="share-btn-facebook">
           <i class="fab fa-facebook"></i>
         </a>
       </li>
@@ -684,7 +818,7 @@
       
       
       <li>
-        <a href="mailto:?subject=Caregiver%20perceptions%20of%20environment%20moderate%20relationship%20betweenneighborhood%20characteristics%20and%20language%20skills%20among%20youth%20living%20withperinatal%20HIV%20and%20uninfected%20youth%20exposed%20to%20HIV%20in%20New%20York%20City&amp;body=/publication/casah/" target="_blank" rel="noopener" class="share-btn-email">
+        <a href="mailto:?subject=Caregiver%20perceptions%20of%20environment%20moderate%20relationship%20betweenneighborhood%20characteristics%20and%20language%20skills%20among%20youth%20living%20withperinatal%20HIV%20and%20uninfected%20youth%20exposed%20to%20HIV%20in%20New%20York%20City&amp;body=https://jordandsnyder.com/publication/casah/" target="_blank" rel="noopener" class="share-btn-email">
           <i class="fas fa-envelope"></i>
         </a>
       </li>
@@ -697,7 +831,7 @@
       
       
       <li>
-        <a href="https://www.linkedin.com/shareArticle?url=/publication/casah/&amp;title=Caregiver%20perceptions%20of%20environment%20moderate%20relationship%20betweenneighborhood%20characteristics%20and%20language%20skills%20among%20youth%20living%20withperinatal%20HIV%20and%20uninfected%20youth%20exposed%20to%20HIV%20in%20New%20York%20City" target="_blank" rel="noopener" class="share-btn-linkedin">
+        <a href="https://www.linkedin.com/shareArticle?url=https://jordandsnyder.com/publication/casah/&amp;title=Caregiver%20perceptions%20of%20environment%20moderate%20relationship%20betweenneighborhood%20characteristics%20and%20language%20skills%20among%20youth%20living%20withperinatal%20HIV%20and%20uninfected%20youth%20exposed%20to%20HIV%20in%20New%20York%20City" target="_blank" rel="noopener" class="share-btn-linkedin">
           <i class="fab fa-linkedin-in"></i>
         </a>
       </li>
@@ -710,7 +844,7 @@
       
       
       <li>
-        <a href="https://web.whatsapp.com/send?text=Caregiver%20perceptions%20of%20environment%20moderate%20relationship%20betweenneighborhood%20characteristics%20and%20language%20skills%20among%20youth%20living%20withperinatal%20HIV%20and%20uninfected%20youth%20exposed%20to%20HIV%20in%20New%20York%20City%20/publication/casah/" target="_blank" rel="noopener" class="share-btn-whatsapp">
+        <a href="https://web.whatsapp.com/send?text=Caregiver%20perceptions%20of%20environment%20moderate%20relationship%20betweenneighborhood%20characteristics%20and%20language%20skills%20among%20youth%20living%20withperinatal%20HIV%20and%20uninfected%20youth%20exposed%20to%20HIV%20in%20New%20York%20City%20https://jordandsnyder.com/publication/casah/" target="_blank" rel="noopener" class="share-btn-whatsapp">
           <i class="fab fa-whatsapp"></i>
         </a>
       </li>
@@ -723,7 +857,7 @@
       
       
       <li>
-        <a href="https://service.weibo.com/share/share.php?url=/publication/casah/&amp;title=Caregiver%20perceptions%20of%20environment%20moderate%20relationship%20betweenneighborhood%20characteristics%20and%20language%20skills%20among%20youth%20living%20withperinatal%20HIV%20and%20uninfected%20youth%20exposed%20to%20HIV%20in%20New%20York%20City" target="_blank" rel="noopener" class="share-btn-weibo">
+        <a href="https://service.weibo.com/share/share.php?url=https://jordandsnyder.com/publication/casah/&amp;title=Caregiver%20perceptions%20of%20environment%20moderate%20relationship%20betweenneighborhood%20characteristics%20and%20language%20skills%20among%20youth%20living%20withperinatal%20HIV%20and%20uninfected%20youth%20exposed%20to%20HIV%20in%20New%20York%20City" target="_blank" rel="noopener" class="share-btn-weibo">
           <i class="fab fa-weibo"></i>
         </a>
       </li>
@@ -743,33 +877,73 @@
 
 
   
-  
     
-  
-  
-
-
-
-
-
-
-  
-  
-  
-  
-  <div class="media author-card content-widget-hr">
     
 
-    <div class="media-body">
-      <h5 class="card-title"><a href="/authors/ezer-kang/"></a></h5>
-      
-      
-      <ul class="network-icon" aria-hidden="true">
-  
-</ul>
 
-    </div>
-  </div>
+
+
+
+  
+
+
+  
+    
+    
+
+
+
+
+
+  
+
+
+  
+    
+    
+
+
+
+
+
+  
+
+
+  
+    
+    
+
+
+
+
+
+  
+
+
+  
+    
+    
+
+
+
+
+
+  
+
+
+  
+    
+    
+
+
+
+
+
+  
+
+
+  
+
 
 
 
@@ -819,9 +993,6 @@
 
     
     
-
-    
-    
     
       <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js" integrity="sha256-lqvxZrPLtfffUl2G/e7szqSvPBILGbwmsGE1MKlOi0Q=" crossorigin="anonymous"></script>
@@ -832,14 +1003,12 @@
 
       
         
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.10/highlight.min.js" integrity="sha256-1zu+3BnLYV9LdiY85uXMzii3bdrkelyp37e0ZyTAQh0=" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/highlight.min.js" integrity="sha256-eOgo0OtLL4cdq7RdwRUiGKLX9XsIJ7nGhWEKbohmVAQ=" crossorigin="anonymous"></script>
         
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.10/languages/r.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/languages/r.min.js"></script>
         
       
 
-      
-      
     
 
     
@@ -849,7 +1018,12 @@
 
     
     
-    <script>hljs.initHighlightingOnLoad();</script>
+    <script>const code_highlighting = true;</script>
+    
+
+    
+    
+    <script>const isSiteThemeDark = false;</script>
     
 
     
@@ -899,6 +1073,9 @@
 
     
     
+
+    
+    
     <script id="dsq-count-scr" src="https://jordandsnyder.disqus.com/count.js" async></script>
     
 
@@ -916,7 +1093,7 @@
     
     
     
-    <script src="/js/academic.min.d6bd04fdad2ad213aa8111c5a3b72fc5.js"></script>
+    <script src="/js/academic.min.37431be2d92d7fb0160054761ab79602.js"></script>
 
     
 
@@ -935,15 +1112,11 @@
       <a href="/privacy/">Privacy Policy</a>
     
     
-       &middot; 
-      <a href="/terms/">Terms</a>
-    
   </p>
   
 
   <p class="powered-by">
-    &copy; Jordan D. Snyder 2019 
-
+    © - Jordan D. Snyder - 2020 
 
     
     <span class="float-right" aria-hidden="true">

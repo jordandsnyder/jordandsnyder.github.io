@@ -2,14 +2,14 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Courses | Jordan D. Snyder</title>
-    <link>/courses/</link>
-      <atom:link href="/courses/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://jordandsnyder.com/courses/</link>
+      <atom:link href="https://jordandsnyder.com/courses/index.xml" rel="self" type="application/rss+xml" />
     <description>Courses</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© Jordan D. Snyder 2019</copyright>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© - Jordan D. Snyder - 2020</copyright>
     <image>
-      <url>/img/icon-192.png</url>
+      <url>https://jordandsnyder.com/images/logo_hu295cf20cad5ac039326eae797cf8f463_75892_300x300_fit_lanczos_2.png</url>
       <title>Courses</title>
-      <link>/courses/</link>
+      <link>https://jordandsnyder.com/courses/</link>
     </image>
     
   </channel>
