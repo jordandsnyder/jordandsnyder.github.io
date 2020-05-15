@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Genocide | Jordan D. Snyder</title>
-    <link>https://jordandsnyder.com/tag/genocide/</link>
-      <atom:link href="https://jordandsnyder.com/tag/genocide/index.xml" rel="self" type="application/rss+xml" />
+    <link>/tag/genocide/</link>
+      <atom:link href="/tag/genocide/index.xml" rel="self" type="application/rss+xml" />
     <description>Genocide</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© - Jordan D. Snyder - 2020</copyright><lastBuildDate>Mon, 27 Apr 2020 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://jordandsnyder.com/images/logo_hu295cf20cad5ac039326eae797cf8f463_75892_300x300_fit_lanczos_2.png</url>
+      <url>/images/logo_hu295cf20cad5ac039326eae797cf8f463_75892_300x300_fit_lanczos_2.png</url>
       <title>Genocide</title>
-      <link>https://jordandsnyder.com/tag/genocide/</link>
+      <link>/tag/genocide/</link>
     </image>
     
     <item>
       <title>A Winding Road to Peace Building - Longitudinal Outcomes of a Peace Intervention for Survivors and Génocidaires of the 1994 Genocide Against the Tutsi in Rwanda</title>
-      <link>https://jordandsnyder.com/publication/carsa_ajcp/</link>
+      <link>/publication/carsa_cfp/</link>
       <pubDate>Mon, 27 Apr 2020 00:00:00 +0000</pubDate>
-      <guid>https://jordandsnyder.com/publication/carsa_ajcp/</guid>
+      <guid>/publication/carsa_cfp/</guid>
       <description>&lt;div class=&#34;alert alert-note&#34;&gt;
   &lt;div&gt;
     Click the &lt;em&gt;Slides&lt;/em&gt; button above to demo Academic&amp;rsquo;s Markdown slides feature.

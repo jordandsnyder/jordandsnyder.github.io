@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>R | Jordan D. Snyder</title>
-    <link>https://jordandsnyder.com/tag/r/</link>
-      <atom:link href="https://jordandsnyder.com/tag/r/index.xml" rel="self" type="application/rss+xml" />
+    <link>/tag/r/</link>
+      <atom:link href="/tag/r/index.xml" rel="self" type="application/rss+xml" />
     <description>R</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© - Jordan D. Snyder - 2020</copyright><lastBuildDate>Mon, 27 Apr 2020 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://jordandsnyder.com/images/logo_hu295cf20cad5ac039326eae797cf8f463_75892_300x300_fit_lanczos_2.png</url>
+      <url>/images/logo_hu295cf20cad5ac039326eae797cf8f463_75892_300x300_fit_lanczos_2.png</url>
       <title>R</title>
-      <link>https://jordandsnyder.com/tag/r/</link>
+      <link>/tag/r/</link>
     </image>
     
     <item>
       <title>Creating a Secret Santa program in R</title>
-      <link>https://jordandsnyder.com/post/secret-santa/</link>
+      <link>/post/secret-santa/</link>
       <pubDate>Sun, 01 Dec 2019 00:00:00 +0000</pubDate>
-      <guid>https://jordandsnyder.com/post/secret-santa/</guid>
+      <guid>/post/secret-santa/</guid>
       <description>&lt;h2 id=&#34;the-inspiration&#34;&gt;The Inspiration&lt;/h2&gt;
 &lt;p&gt;My friends and I started a tradition shortly after we left college. Despite being spread out across the country (and now, the world!), we wished to remain in touch and get each other some holiday cheer. As the years moved on, and as we added to our number with partners (and now offspring!), we wanted to continue the tradition of secret santa. One year, my buddy 
 &lt;a href=&#34;www.alexrecker.com&#34;&gt;Alex&lt;/a&gt; created a python secret santa bot that divvied us up and sent out emails to all parties involved. This served as the inspation for this project: I wanted to create a program that could divvy us up without giving away our information to others as well as teach myself some programming in the process.&lt;/p&gt;
